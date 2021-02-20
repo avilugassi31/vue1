@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  color: lawngreen;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px rgba(0, 130, 120, 0.5);
+  text-decoration: underline;
+}
+
+.show-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  font-family: cursive;
+  text-transform: capitalize;
+  color: lightseagreen;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  color: rgb(118, 120, 236);
+  text-shadow: 3px 3px 3px rgba(0, 130, 120, 0.5);
+  text-decoration: none;
+}
+
+.dark {
+  background-color: darkgray;
+}
+
+.bright {
+  background-color: white;
+}
+
+.summer {
+  background-image: url('../images/summer.jpeg');
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+.winter {
+  background-image: url('../images/winter.jpeg');
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+.spring {
+  background-image: url('../images/spring.jpeg');
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+.fall {
+  background-image: url('../images/fall.jpeg');
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+.red {
+  color: red;
+}
+
+.netflix-1 {
+  background-color: turquoise;
+}
+.netflix-2 {
+  background-color: violet;
+}
+
+.show-netflix {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: 'white';
+  padding: 10px;
+  border: 2px solid rgb(80, 80, 79);
+}
+button {
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: cornflowerblue;
+}
+.user-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  list-style: none;
+  box-shadow: 3px 3px 3px rgb(88, 88, 88);
+  text-align: center;
+}
+.netflix-logo {
+  height: 100px;
+  width: 300px;
+  object-fit: contain;
+}
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+}
+
+input {
+  margin-top: 30px;
+}
+.modal {
+  position: absolute;
+  background-color: darkkhaki;
+  width: 300px;
+  height: 300px;
+  /* padding: 10px; */
+  /* min-height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  width: 300px;
+}
+
+.modal-btn {
+  height: 2.25rem;
+  width: 100px;
+}
