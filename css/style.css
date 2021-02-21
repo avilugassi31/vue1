@@ -4,27 +4,35 @@
 
 body {
   text-align: center;
+  background-color: rgb(46, 45, 45);
 }
 
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bolder;
   color: lawngreen;
-  text-transform: uppercase;
+  text-transform:capitalize;
   text-shadow: 3px 3px 3px rgba(0, 130, 120, 0.5);
   text-decoration: underline;
 }
-
+#app{
+  display:flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 10px;
+}
 .show-time {
+  border-radius:18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  margin-right:-250px;
   text-align: center;
   height: 200px;
   width: 400px;
-  border: 1px solid black;
+  border: 2px solid black;
   font-family: cursive;
   text-transform: capitalize;
   color: lightseagreen;
@@ -75,7 +83,23 @@ span {
   height: 100px;
   width: 100px;
 }
-
+.count-down{
+  border-radius:18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  border: 2px solid black;
+  font-family: cursive;
+  color: lightseagreen;
+  font-weight: bold;
+  background-color: #fff;
+ 
+}
 .red {
   color: red;
 }
@@ -95,6 +119,10 @@ span {
   background-color: 'white';
   padding: 10px;
   border: 2px solid rgb(80, 80, 79);
+  border-radius:18px;
+  width:61%;
+  margin:0 auto;
+  background-color:white;
 }
 button {
   cursor: pointer;
